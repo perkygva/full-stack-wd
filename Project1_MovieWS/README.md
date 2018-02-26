@@ -7,6 +7,8 @@ It is a simple script to create a webpage to host movie names, posters, and link
 clicking on the poster.
 
 ## Running the script
+Python 3 required!
+
 1. Save fresh_tomatoes.py. "Fork this repository to create your own copy in GitHub. 
 2. Run entertainment.py 
 3. Additional Options:
