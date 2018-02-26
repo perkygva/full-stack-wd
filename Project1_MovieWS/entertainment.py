@@ -7,6 +7,7 @@ Project 1 Udacity FSWD
 """
 
 import media
+from media import get_data, apply_movie
 import fresh_tomatoes
 
 # 1. INPUT LIST OF MOVIES AND TRAILER LINKS
