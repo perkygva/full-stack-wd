@@ -29,5 +29,6 @@ little_mermaid = apply_movie("Little+Mermaid", input_trailers)
 olafs_adventures = apply_movie("Olaf's+Frozen", input_trailers)
 
 # 3. Create movie list and fresh tomatoes
-mov_list = [frozen, cinderella, little_bear, little_mermaid, olafs_adventures]
+mov_list = [frozen, cinderella, little_bear, little_mermaid,
+            olafs_adventures]
 fresh_tomatoes.open_movies_page(mov_list)
