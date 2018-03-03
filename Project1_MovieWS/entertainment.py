@@ -21,13 +21,13 @@ input_trailers = {"Frozen": fzn_url, "Little+Bear": lbr_url,
                   "Cinderella": cnd_url, "Olaf's+Frozen": olf_url,
                   "Little+Mermaid": lmer_url}
 
-
+# 2. Call apply_movie function from media.py
 frozen = apply_movie("Frozen", input_trailers)
 cinderella = apply_movie("Cinderella", input_trailers)
 little_bear = apply_movie("Little+Bear", input_trailers)
 little_mermaid = apply_movie("Little+Mermaid", input_trailers)
 olafs_adventures = apply_movie("Olaf's+Frozen", input_trailers)
 
+# 3. Create movie list and fresh tomatoes
 mov_list = [frozen, cinderella, little_bear, little_mermaid, olafs_adventures]
-# movies = [frozen, cinderella, olafs_adventures, little_bear]
 fresh_tomatoes.open_movies_page(mov_list)
