@@ -11,10 +11,15 @@ from media import get_data, apply_movie
 import fresh_tomatoes
 
 # 1. INPUT LIST OF MOVIES AND TRAILER LINKS
-#input_movies = 
-input_trailers = {"Frozen": "https://www.youtube.com/watch?v=-WdC4DaYIeQ", "Little+Bear":"https://www.youtube.com/watch?v=kv49vjUor6Q",
-        "Cinderella": "https://www.youtube.com/watch?v=cL-RjWKtZrM", "Olaf's+Frozen": "https://www.youtube.com/watch?v=HE2Ku_o_NNE",
-        "Little+Mermaid": "https://www.youtube.com/watch?v=ZGZX5-PAwR8"} 
+fzn_url = "https://www.youtube.com/watch?v=-WdC4DaYIeQ"
+lbr_url = "https://www.youtube.com/watch?v=kv49vjUor6Q"
+cnd_url = "https://www.youtube.com/watch?v=cL-RjWKtZrM"
+olf_url = "https://www.youtube.com/watch?v=HE2Ku_o_NNE"
+lmer_url = "https://www.youtube.com/watch?v=ZGZX5-PAwR8"
+
+input_trailers = {"Frozen": fzn_url, "Little+Bear": lbr_url,
+                  "Cinderella": cnd_url, "Olaf's+Frozen": olf_url,
+                  "Little+Mermaid": lmer_url}
 
 
 frozen = apply_movie("Frozen", input_trailers)
