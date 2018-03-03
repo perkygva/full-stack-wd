@@ -12,7 +12,7 @@ import json
 
 # Main constructor to organize movie information and display movie trailers
 class Movie():
-    """Define movie parameters"""
+    """Define movie parameters and open youtube trailer"""
 
     def __init__(self, title, plot, rating, runtime, poster, youtube_trailer):
         self.title = title
@@ -29,7 +29,7 @@ class Movie():
 
 # METHOD TO CALL MOVE DATA FROM OMDB
 def get_data(movie):
-    """fucntion calls movie data from OMDB API"""
+    """fucntion calls movie data from OMDB API and returns data"""
     data = urlopen("http://www.omdbapi.com/?t=" + movie +
                    "&apikey=883d566b").read()
     raw_data = str(data, 'utf-8-sig')
@@ -38,8 +38,8 @@ def get_data(movie):
 
 
 def apply_movie(movie_title, trailers):
-    # input movie title and trailer list
-    # organize the data and applies the Movie class.
+    """input movie title and trailer list to organize the data and
+    apply the Movie class."""
     mov_data = get_data(movie_title)
     movie = Movie(mov_data["Title"], mov_data["Plot"],
                   mov_data["imdbRating"], mov_data["Runtime"],
