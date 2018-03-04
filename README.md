@@ -9,7 +9,6 @@ It is a simple script to create a webpage to host movie names, posters, and link
 clicking on the poster.
 
 ### Running the script
-Script was developed in Python 3!
 
 1. Download and install python 2 if you do not already have it.
 2. Fork this repo or download the files. (fresh_tomatoes.py, media.py, entertainment.py)
