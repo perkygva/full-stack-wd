@@ -6,7 +6,8 @@ Udacity FSWD Course 1 - Mini project 1: Movie Webpage
 """
 
 import webbrowser
-from urllib.request import urlopen
+from urllib import urlopen
+# python 3 urllib.request
 import json
 
 
