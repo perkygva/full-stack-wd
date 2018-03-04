@@ -14,7 +14,7 @@ Script was developed in Python 3!
 1. Download and install python 2 if you do not already have it.
 2. Fork this repo or download the files. (fresh_tomatoes.py, media.py, entertainment.py)
 3. Open python IDLE or spyder if running Anaconda.
-4. Open and run entertainment.py in IDLE or alternative python IDE (spyder, etc).
+4. Open the file entertainment.py in IDLE or alternative python IDE (spyder, etc) and run script via RUN > RUN MODULE.
 
 ### What the code does!
 - The entertainment.py file imports the methods below and applies them to the data inputted. After it creates a list of the of the "movies" and runs the fresh_tomatoes file which creates the webpage.
