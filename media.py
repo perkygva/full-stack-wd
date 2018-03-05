@@ -33,7 +33,7 @@ def get_data(movie):
     """fucntion calls movie data from OMDB API and returns data"""
     data = urlopen("http://www.omdbapi.com/?t=" + movie +
                    "&apikey=883d566b").read()
-    raw_data = str(data, 'utf-8-sig')
+    raw_data = str(data)
     json_data = json.loads(raw_data)
     return(json_data)
 
